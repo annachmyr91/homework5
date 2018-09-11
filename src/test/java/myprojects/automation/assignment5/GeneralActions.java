@@ -18,6 +18,14 @@ public class GeneralActions {
         wait = new WebDriverWait(driver, 30);
     }
 
+    public WebDriverWait getWait() {
+        return wait;
+    }
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
     public void openRandomProduct() {
         // TODO implement logic to open random product before purchase
         throw new UnsupportedOperationException();

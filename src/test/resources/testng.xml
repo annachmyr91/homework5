@@ -10,4 +10,21 @@
     </test>
 
     <!--Configure tests for other browser types-->
+<!--
+    <test name="Create New Order [Firefox]" >
+        <parameter name="selenium.browser" value="firefox" />
+        <parameter name="selenium.grid" value="http://localhost:4444/wd/hub" />
+        <classes>
+            <class name="myprojects.automation.assignment5.tests.PlaceOrderTest" />
+        </classes>
+    </test>
+
+
+    <test name="Create New Order [IE]" >
+        <parameter name="selenium.browser" value="IE" />
+        <parameter name="selenium.grid" value="http://localhost:4444/wd/hub" />
+        <classes>
+            <class name="myprojects.automation.assignment5.tests.PlaceOrderTest" />
+        </classes>
+    </test>-->
 </suite>
